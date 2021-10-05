@@ -1,4 +1,4 @@
-//In the index.html add a script tag to the end of the <body>. Then do the following exercises.
+//In the index.html add a script tag to the end of the <body>. Then do the following exercises. =>done
 
 //DO NOT MODIFY THE HTML FILE, all the modifications should be done using javascript. Exercises that start with a (*) are harder to solve, you can keep this for the end.
 
@@ -77,6 +77,7 @@ function randomSort(e) {
       "Fast and Furious"
     ) {
       fffirst();
+      matchingItems(e);
     }
   }
   //(*) Modify the previous function so that when you press the letter d of your keyboard, the Fast and Furious element gets cloned
@@ -106,7 +107,6 @@ chooseOption.appendChild(pHolder);
 chooseOption.appendChild(option1);
 chooseOption.appendChild(option2);
 newDiv.appendChild(chooseOption);
-
 
 //Add an eventListener to the <select>, on change, if the option "important franchise" is chosen, only display items of the list that have the class .important. (hint: you can toggle visibility using element.style.visibility = 'hidden')
 
